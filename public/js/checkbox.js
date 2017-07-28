@@ -45,7 +45,7 @@ window.onload = function () {
 	}, 1500);
 }
 
-//Set the timer for 20 seconds
+//Set the timer for 10 seconds
 $('.start').click( function(){
    var counter = 10;
    setInterval(function() {
