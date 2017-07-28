@@ -60,7 +60,7 @@ $('.start').click( function(){
      }, 1000);
 });
 
-//Hide the form and question marks, make them reappear after 20 seconds and hide the picture
+//Hide the form and question marks, make them reappear after 10 seconds and hide the picture
 $(document).ready(function() {
 	$('.hide').hide()
 	$('.test').hide()
