@@ -62,7 +62,7 @@ $('.start').click( function(){
 
 //Hide the form and question marks, make them reappear after 10 seconds and hide the picture
 $(document).ready(function() {
-	$('.hide').hide()
+	$('.questionMarks').hide()
 	$('.test').hide()
 	$('.text').hide()
 	$('.food').hide()
@@ -76,7 +76,7 @@ $('.start').click(function() {
 
 	var show = function() {
 		$('.food').hide()
-		$('.hide').fadeIn()
+		$('.questionMarks').fadeIn()
 		$('.test').fadeIn()
 	};
 	setTimeout(show, 10000)
